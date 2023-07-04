@@ -1,0 +1,13 @@
+name: "Render static drawing files"
+
+on:
+  # trigger every pull-request that opened and have mermaid files in it
+  pull_request:
+    types:
+      - opened
+    paths:
+      - '**/*.mermaid'
+      - '**/*.mmd'
+jobs:
+  render-images:
+    uses: SystemGuideOrg/rendering/blob/main/.github/workflows/reusable-generate-mermaid-svg.yml@v1
