@@ -5,6 +5,7 @@ DA - [First Component]
 [First Component] ..> HTTP : use
 
 note left of HTTP : Web Service only
+note left of HTTP : Service only
 
 note right of [First Component]
   A note can also
