@@ -1,0 +1,12 @@
+name: "Render static drawing files"
+
+on:
+  # trigger every pull-request that opened and have mermaid files in it
+  pull_request:
+    types:
+      - opened
+    paths:
+      - '**/*.puml'
+jobs:
+  render-images:
+    uses: SystemGuideOrg/rendering/.github/workflows/reusable-generate-puml-svg.yml@v0.1.0
