@@ -9,4 +9,4 @@ on:
       - '**/*.puml'
 jobs:
   render-images:
-    uses: SystemGuideOrg/rendering/.github/workflows/reusable-generate-puml-svg.yml@v0.1.0
+    uses: SystemGuideOrg/rendering/.github/workflows/reusable-generate-puml-svg.yml@v0.2.0
