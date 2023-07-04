@@ -10,4 +10,4 @@ on:
       - '**/*.mmd'
 jobs:
   render-images:
-    uses: SystemGuideOrg/rendering/blob/main/.github/workflows/reusable-generate-mermaid-svg.yml@v1
+    uses: SystemGuideOrg/rendering/.github/workflows/reusable-generate-mermaid-svg.yml@v1
