@@ -7,5 +7,6 @@ participant Participant [
 
 participant Bob
 actor alice
+actor chewi
 Participant -> Bob
 @enduml
