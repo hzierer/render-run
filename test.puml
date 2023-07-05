@@ -6,6 +6,6 @@ participant Participant [
 ]
 
 participant Bob
-
+actor alice
 Participant -> Bob
 @enduml
